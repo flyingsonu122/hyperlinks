@@ -1,3 +1,19 @@
+
+Run this **code** in console after website is loaded
+
+```js
+
+const links = document.links;
+for (let i = 0; i < links.length; i++) {
+  const linkHref = document.createTextNode(links[i].href);
+  const lineBreak = document.createElement("br");
+  document.body.appendChild(linkHref);
+  document.body.appendChild(lineBreak);
+  document.body.appendChild(document.createElement("br"));
+}
+
+```
+
 <br><br><br><br>
 
 
