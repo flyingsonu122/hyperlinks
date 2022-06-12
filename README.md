@@ -1,5 +1,5 @@
 
-Run this **code** in console after website is loaded
+Run this **code** in console after website is loaded, Now **check all hyperlinks** present on the website at **bottom**.
 
 ```js
 
@@ -13,6 +13,16 @@ for (let i = 0; i < links.length; i++) {
 }
 
 ```
+
+**Demo**
+
+
+
+
+https://user-images.githubusercontent.com/51280276/173236295-aeed02a1-b011-46c5-ac3b-cc6b0c0f3958.mp4
+
+
+
 
 <br><br><br><br>
 
